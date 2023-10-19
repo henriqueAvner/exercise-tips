@@ -33,7 +33,6 @@ function Login() {
 
   return (
     <form className={ styles.sectionStyle }>
-
       <label htmlFor="username">
         Digite seu nome:
         <input
@@ -60,9 +59,7 @@ function Login() {
         onClick={ ButtonClick }
       >
         Entrar
-
       </button>
-
     </form>
   );
 }
