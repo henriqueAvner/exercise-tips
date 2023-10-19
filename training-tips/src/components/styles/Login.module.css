@@ -1,0 +1,16 @@
+.sectionStyle {
+    display: flex;
+    flex-direction: column;
+    border: solid white 1px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sectionStyle label {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.sectionStyle input {
+    padding: 10px;
+    margin-bottom: 30px;
+}
