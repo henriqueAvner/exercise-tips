@@ -1,3 +1,13 @@
+export type TypeFichas = {
+  grupoMuscular: string;
+  exercicios: {
+    nome: string;
+    descricao: string;
+    series: number;
+    repeticoes: number;
+  }[];
+};
+
 const fichasDeTreino = [
   {
     grupoMuscular: 'Peito',
@@ -149,7 +159,67 @@ const fichasDeTreino = [
       },
     ],
   },
-];
 
+  {
+    grupoMuscular: 'Quadríceps',
+    exercicios: [
+      {
+        nome: 'Banco extensor',
+        descricao: 'Um exercício para o quadríceps de forma isolada.',
+        series: 4,
+        repeticoes: 8,
+      },
+      {
+        nome: 'Leg Press 45',
+        descricao: 'Um exercício para quadríceps com ação no glúteo.',
+        series: 4,
+        repeticoes: 10,
+      },
+      {
+        nome: 'Afundo',
+        descricao: 'Um exercício enfase na parte medial do quadríceps.',
+        series: 3,
+        repeticoes: 12,
+      },
+      {
+        nome: 'Agachamento Sissy',
+        descricao: 'Um exercício para fortalecer os joelhos e a para o vasto medial',
+        series: 3,
+        repeticoes: 15,
+      },
+    ],
+  },
+
+  {
+    grupoMuscular: 'Posteriores',
+    exercicios: [
+      {
+        nome: 'Banco flexor',
+        descricao: 'Um exercício para o posterior de forma isolada.',
+        series: 4,
+        repeticoes: 8,
+      },
+      {
+        nome: 'Mesa flexora',
+        descricao: 'Um exercício com ênfase no bíceps femoral',
+        series: 4,
+        repeticoes: 10,
+      },
+      {
+        nome: 'Elevação pélvica',
+        descricao: 'Um exercício enfase n glúteo de forma geral.',
+        series: 3,
+        repeticoes: 12,
+      },
+      {
+        nome: 'Agachamento sumô',
+        descricao: 'Um exercício para as pernas em geral e foco nos glúteos',
+        series: 3,
+        repeticoes: 15,
+      },
+    ],
+  },
+];
+export default fichasDeTreino;
 // Exemplo de como acessar informações
 console.log(fichasDeTreino[0].exercicios[0].nome); // "Supino Reto"
