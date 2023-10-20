@@ -14,3 +14,20 @@
     padding: 10px;
     margin-bottom: 30px;
 }
+
+ ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.notPass {
+    color: rgb(135, 19, 19);
+    text-decoration: underline;
+    list-style-type: none;
+}
+
+.Pass {
+    color: green;
+}
