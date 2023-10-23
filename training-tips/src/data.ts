@@ -11,7 +11,7 @@ export type TypeFichas = {
 
 const fichasDeTreino = [
   {
-    grupoMuscular: 'Peito',
+    grupoMuscular: 'peito',
     exercicios: [
       {
         nome: 'Supino Reto',
@@ -46,7 +46,7 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Ombros',
+    grupoMuscular: 'ombros',
     exercicios: [
       {
         nome: 'Elevação Lateral',
@@ -71,7 +71,7 @@ const fichasDeTreino = [
       },
       {
         nome: 'Encolhimento com halteres',
-        img: '/src/images/encolhimento.webp',
+        img: '/src/images/encolhimento.gif',
         descricao: 'Um exercício para os trapézios',
         series: 3,
         repeticoes: 15,
@@ -80,18 +80,18 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Bíceps',
+    grupoMuscular: 'biceps',
     exercicios: [
       {
         nome: 'Rosca direta',
-        img: '/src/images/rosca-direta.webp',
+        img: 'src/images/rosca-direta-halter.webp',
         descricao: 'Um exercício para fortalecer o bíceps em geral.',
         series: 4,
         repeticoes: 8,
       },
       {
         nome: 'Rosca martelo',
-        img: '/src/images/rosca-martelo.webp',
+        img: '/src/images/rosca-martelo.gif',
         descricao: 'Um exercício composto para o bíceps e o antebraço',
         series: 4,
         repeticoes: 10,
@@ -105,7 +105,7 @@ const fichasDeTreino = [
       },
       {
         nome: 'Rosca inversa barra W',
-        img: '/src/images/rosca-inversa.webp',
+        img: '/src/images/rosca-inversa.gif',
         descricao: 'Um exercício composto para os bíceps e para os antebraços',
         series: 3,
         repeticoes: 15,
@@ -114,7 +114,7 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Tríceps',
+    grupoMuscular: 'triceps',
     exercicios: [
       {
         nome: 'Tríceps na polia',
@@ -132,7 +132,7 @@ const fichasDeTreino = [
       },
       {
         nome: 'Tríceps coice',
-        img: '/src/images/triceps-coice.webp',
+        img: '/src/images/triceps-coice.gif',
         descricao: 'Um exercício para a parte medial do tríceps',
         series: 3,
         repeticoes: 12,
@@ -148,7 +148,7 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Costas',
+    grupoMuscular: 'costas',
     exercicios: [
       {
         nome: 'Barra Fixa',
@@ -182,7 +182,7 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Quadríceps',
+    grupoMuscular: 'quadriceps',
     exercicios: [
       {
         nome: 'Banco extensor',
@@ -207,7 +207,7 @@ const fichasDeTreino = [
       },
       {
         nome: 'Leg Press horizontal',
-        img: '/src/images/leg-horizontal.webp',
+        img: '/src/images/leg-horizontal.gif',
         descricao: 'Um exercício para fortalecer os joelhos e a para o vasto lateral',
         series: 3,
         repeticoes: 15,
@@ -216,11 +216,11 @@ const fichasDeTreino = [
   },
 
   {
-    grupoMuscular: 'Posteriores',
+    grupoMuscular: 'posteriores',
     exercicios: [
       {
         nome: 'Banco flexor',
-        img: '/src/images/banco-flexor.webp',
+        img: '/src/images/banco-flexor.gif',
         descricao: 'Um exercício para o posterior de forma isolada.',
         series: 4,
         repeticoes: 8,
@@ -234,7 +234,7 @@ const fichasDeTreino = [
       },
       {
         nome: 'Elevação pélvica',
-        img: '/src/images/elevacao-pelvica.webp',
+        img: '/src/images/elevacao-pelvica.gif',
         descricao: 'Um exercício enfase n glúteo de forma geral.',
         series: 3,
         repeticoes: 12,

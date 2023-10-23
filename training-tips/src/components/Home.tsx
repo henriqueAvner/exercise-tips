@@ -1,10 +1,14 @@
 import fichasDeTreino from '../data';
 import DayCard from './DayCard';
-// Ao clicar no botão de "ver exercício do dia", você é redirecionado para uma página
-// daquele dia, onde mostra detalhes sobre cada um deles.
+import NavBar from './NavBar';
+// Revisar as imagens quebradas.
+// Estilização da barra de navegação e da home
+// Criação de uma página sobre o projeto.
+// Criação de uma página sobre o autor.
 function Home() {
   return (
     <section>
+      <NavBar />
       {fichasDeTreino.map((day, index) => (
         <DayCard key={ index } day={ day } />
       ))}

@@ -66,16 +66,16 @@ function Login() {
       </form>
       <ul>
         <li className={ username.length >= 5 ? styles.Pass : styles.notPass }>
-          Seu username deve ter mais de 5 dígitos
+          Seu username deve conter mais de 5 dígitos
         </li>
         <li className={ password.length >= 6 ? styles.Pass : styles.notPass }>
-          Sua senha deve ser maior do que 6 caracteres
+          Sua senha deve ser maior do que 7 caracteres
         </li>
         <li
           className={ specialRegex
             .test(password) ? styles.Pass : styles.notPass }
         >
-          Sua senha deve conter pelo menos um caractere especial
+          Sua senha deve conter pelo menos 1 caractere especiail
         </li>
       </ul>
     </>
