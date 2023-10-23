@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+nav a {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    margin: 1rem;
+    color: #bd1f16;
+}
+  
+.active {
+    font-weight: 700;
+    color:  rgb(233, 125, 9);
+}
+
+a:hover {
+    color: rgb(233, 125, 9);
+}
